@@ -1,0 +1,59 @@
+body
+{
+    background-color:lavender ;
+}
+h1
+{
+    color:red;
+    display: inline-block;
+}
+img
+{
+    height:3%;
+    vertical-align: middle;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    background-color: chocolate;
+    color: white;
+}
+ul
+{
+    background-color: chocolate;
+    height: 50px;
+    padding-right: 0 15px;
+    text-align: right;
+}
+li
+{
+    display: inline-block;
+    height: 50px;
+    padding: 0 15px ;
+    line-height: 50px;
+}
+iframe
+{
+    text-align: center;
+}
+#owner_img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 50%;
+    box-shadow: rgb(48, 41, 41);
+    
+
+}
+#b_content
+{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+           

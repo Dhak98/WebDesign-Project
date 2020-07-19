@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    border-radius: 5px;
+    color: red;
+    display: inline;
+}
+ul{
+    background-color: chocolate;
+    height: 50px;
+    padding-right: 0 15px;
+    text-align: right;
+}
+li{
+    display: inline-block;
+    height: 50px;
+    padding: 0 15px ;
+    line-height: 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(99, 44, 44);
+}
+a:hover{
+    background-color: chocolate;
+    color: white;
+}
+#new:hover
+{
+    background-color: lavender;
+    color: lavender;
+
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lavender;
+    text-align: center;
+}
+img{
+    height:3%;
+    vertical-align: middle;
+}
+.Logincre{
+    background-color: skyblue;
+    
+}
+#log{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10p
+}

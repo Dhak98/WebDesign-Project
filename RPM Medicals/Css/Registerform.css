@@ -1,0 +1,80 @@
+        h1{
+            text-align: center;
+            border-radius: 5px;
+            color: red;
+            display: inline;
+        }
+        address{
+            text-align: center;
+        }
+        fieldset{
+            background-color: 3px solid crimson;
+            margin-bottom: 25px;
+            border-radius: 15px;
+
+        }
+        Heading{
+            text-align: center;
+            text-shadow:darkblue;
+        }
+        body{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: lavender;
+            text-align: center;
+        }
+        ul{
+            background-color: chocolate;
+            height: 50px;
+            padding-right: 0 15px;
+            text-align: right;
+        }
+        li{
+            display: inline-block;
+            height: 50px;
+            padding: 0 15px ;
+            line-height: 50px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            background-color: chocolate;
+            color: white;
+        }
+        form{
+            position: relative;
+            width: 100%;
+            text-align: center;    
+        }
+        legend{
+            background-color: chocolate;
+            padding: 5px;
+            border-radius: 5px; 
+            text-align: left;
+            font-style: italic;
+        }
+        p{
+            text-align: center ;
+            font-weight: bold;
+        }
+        iframe{
+            text-align: center;
+        }
+        :login{
+            display: inline-block;
+        }
+        hr{
+            text-align: center;
+        }
+        img{
+            height:3%;
+            vertical-align: middle;
+        }
+        text{
+            text-align: center;
+        }
+        map{
+            text-align: center;
+        }
+    

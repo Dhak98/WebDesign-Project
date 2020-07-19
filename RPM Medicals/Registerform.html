@@ -1,0 +1,76 @@
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Register </title>
+    <link href="C:\Users\DHAKCHANAMOORTHY\Desktop\RPM Medicals\Css\Registerform.css" type="text/css" rel="stylesheet">
+    
+<head>
+    <div id="photo" style="text-align: center">
+        <img style="vertical-align:middle" src="C:\Users\DHAKCHANAMOORTHY\Desktop\RPM Medicals\download.png" alt="">
+        <span style="vertical-align:middle"><h1>RPM MEDICALS</h1></span>
+    </div>
+    <ul>
+        <li><a href="C:\Users\DHAKCHANAMOORTHY\Desktop\RPM Medicals\index.html" target="_blank">Home</a></li>
+            <li><a href="C:\Users\DHAKCHANAMOORTHY\Desktop\RPM Medicals\Order.html" target="_blank">Order</a></li>
+            <li><a href="" >Register</a></li>
+            <li><a href="C:\Users\DHAKCHANAMOORTHY\Desktop\RPM Medicals\contact.html" target="_blank">Contact us </a></li>
+            <li><a href="C:\Users\DHAKCHANAMOORTHY\Desktop\RPM Medicals\login.html" target="_blank">Login</a> </li>
+    </ul>
+</head>
+    <body>
+        <h1>Register!!</h1>
+        <fieldset>
+            <legend>Login Details</legend>
+        <form >
+            <div id="login_details">
+            <p>Username:<input type="text" name="Username" id="Username" required placeholder="Enter your Username..."> </p>
+            <p>Email   :<input type="email" name="email-id" id="email-id" required placeholder="Enter your Email..."> </p>
+            <p>Password:<input type="password" name="Password" id="password" required placeholder="Enter your Password..." min="6">  </p>
+            <p>Verify Password:<input type="password" name="VerifyPassword" placeholder="Enter Your Password Again..."></p>
+            </div>        
+        </form>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <form>
+                <div id="persona_details" >
+                <p>First Name:<input type="text" name="FirstName" id="Firstname" required placeholder="Enter your First name..."></p>
+                <p>Last Name:<input type="text" name="LastName" id="Lastname" required placeholder="Enter yout Last name..."> </p>
+                <p>Gender: 
+                     <input type="radio" name="Male" id="Male" >Male  
+                     <input type="radio" name="Female" id="Female" >Female  
+                     <input type="radio" name="Trans-Gender" id="Trans-Gender" >Trans-Gender
+                </p>
+                <p>Age:<input type="number" name="Age" required placeholder="Enter your Age..."> </p>
+                <p>
+                    <label for="dob"> Date of Birth:</label>
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+                </p>
+
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <form>
+                <p>Door No:<input type="text" name="Door No" id="Door no" required placeholder="e.g:111/222"> </p>
+                <p>Street:<input type="text" name="Street" id="Street" required placeholder="e.g:abc nager"> </p>
+                <p>Area:<input type="text" name="Area" id="Area" required placeholder="e.g:rasipuram,pavadi,busstop"> </p>
+                <p>District:<input type="text" name="District" id="District" required placeholder="e.g:Namakkal"> </p>
+                <p>Pincode:<input type="text" name="Pincode" id="Pincode" min="6" required placeholder="e.g:600000"> </p>
+                <p>Mobile number:<input type="text" name="Mobile Number" id="Mobilenumber" required min="10" max="10" placeholder="e.g:9915008005"> </p>
+            </form>
+        </fieldset>
+        <p>
+            <input type="checkbox" id="termhkbx" > <I> I agree </I> <a href="../RPM Medicals/Terms and Condition.txt" target="_blank"></a><i>terms and conditions</I></p>       
+        <p>
+            <button class="button" >Register</button>
+        </p>
+        
+        <hr>        
+            <footer align="center" >
+                &copy; Copyright 2020 RPM Medicals
+            </footer>
+        </footer>
+    </body>
+</html>

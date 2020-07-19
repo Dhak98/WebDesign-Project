@@ -1,0 +1,40 @@
+   h1{
+        color:red;
+        display: inline-block;
+    }
+    body{
+        background-color:lavender ;
+    }
+    address{
+        text-align: center;
+    }
+    iframe{
+        text-align: center;
+    }
+    img{
+        height:3%;
+        vertical-align: middle;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        background-color: chocolate;
+        color: white;
+    }
+    ul{
+        background-color: chocolate;
+        height: 50px;
+        padding-right: 0 15px;
+        text-align: right;
+    }
+    li{
+        display: inline-block;
+        height: 50px;
+        padding: 0 15px ;
+        line-height: 50px;
+    } 
+    iframe{
+                text-align: center;
+    }  
